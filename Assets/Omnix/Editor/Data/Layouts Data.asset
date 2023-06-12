@@ -1,0 +1,258 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e95edf40491f4549a867cf135c5f5e5f, type: 3}
+  m_Name: Layouts Data
+  m_EditorClassIdentifier: 
+  currentSkin: {fileID: 11400000, guid: fe18d8f471a5c4c47aa6a01d4c9fb779, type: 2}
+  layouts:
+  - showScriptPickup: 1
+    targetClassGuid: 07870f1c2c2364a4ea3fcb9a631cc66f
+    firstLayout:
+      _myGUID: tmssM0QCImk3YudU1DsyhP0cUBYkXo
+      showIfTargetType: 0
+      elementType: 0
+      styleSheet:
+        hasCustomStyle: 0
+        backgroundAlphaBlend: 1
+        backgroundScaleMode: 0
+        normal:
+          backColor: {r: 1, g: 1, b: 1, a: 1}
+          textColor: {r: 1, g: 1, b: 1, a: 1}
+          backTexture: {fileID: 0}
+        hover:
+          backColor: {r: 1, g: 1, b: 1, a: 1}
+          textColor: {r: 1, g: 1, b: 1, a: 1}
+          backTexture: {fileID: 0}
+      padding:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      nameInKsHierarchy: Root
+      callbackTarget: 
+      showIfTarget: 
+      hideDontDisable: 1
+      showHeader: 0
+      isExpanded: 0
+      children:
+      - riOdGVY_vaULCCDVJfEtSpJFPdxSli
+      - A8xq8zX1tAit6SLhhk6js6A9gUWICd
+      - PYmS_8IbJF9Hm5yunZbtGTz9NsJ16R
+      - 6XJD5ST6hAFX4OJ7kthtg7XO8pKyIF
+      - LgSG78VZuz3yqamyVvgluKnyKb1htt
+      - DjZJhJB1YSp1Nj4km1nT6KVuWPjSHy
+    layouts: []
+    properties:
+    - _myGUID: riOdGVY_vaULCCDVJfEtSpJFPdxSli
+      showIfTargetType: 0
+      elementType: 3
+      styleSheet:
+        hasCustomStyle: 0
+        backgroundAlphaBlend: 1
+        backgroundScaleMode: 0
+        normal:
+          backColor: {r: 1, g: 1, b: 1, a: 1}
+          textColor: {r: 1, g: 1, b: 1, a: 1}
+          backTexture: {fileID: 0}
+        hover:
+          backColor: {r: 1, g: 1, b: 1, a: 1}
+          textColor: {r: 1, g: 1, b: 1, a: 1}
+          backTexture: {fileID: 0}
+      padding:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      nameInKsHierarchy: Health
+      callbackTarget: 
+      showIfTarget: 
+      hideDontDisable: 0
+      widthType: 0
+      heightType: 0
+      widthValue: 0
+      heightValue: 0
+      target: health
+      content:
+        m_Text: Health
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      extraData: '{"drawerStyle":0,"sliderMinF":0.0,"sliderMaxF":1.0,"sliderMinI":0,"sliderMaxI":1}'
+    - _myGUID: A8xq8zX1tAit6SLhhk6js6A9gUWICd
+      showIfTargetType: 0
+      elementType: 3
+      styleSheet:
+        hasCustomStyle: 0
+        backgroundAlphaBlend: 1
+        backgroundScaleMode: 0
+        normal:
+          backColor: {r: 1, g: 1, b: 1, a: 1}
+          textColor: {r: 1, g: 1, b: 1, a: 1}
+          backTexture: {fileID: 0}
+        hover:
+          backColor: {r: 1, g: 1, b: 1, a: 1}
+          textColor: {r: 1, g: 1, b: 1, a: 1}
+          backTexture: {fileID: 0}
+      padding:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      nameInKsHierarchy: Walk Speed
+      callbackTarget: 
+      showIfTarget: 
+      hideDontDisable: 0
+      widthType: 0
+      heightType: 0
+      widthValue: 0
+      heightValue: 0
+      target: walkSpeed
+      content:
+        m_Text: Walk Speed
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      extraData: '{"drawerStyle":0,"sliderMinF":0.0,"sliderMaxF":1.0,"sliderMinI":0,"sliderMaxI":1}'
+    - _myGUID: PYmS_8IbJF9Hm5yunZbtGTz9NsJ16R
+      showIfTargetType: 0
+      elementType: 3
+      styleSheet:
+        hasCustomStyle: 0
+        backgroundAlphaBlend: 1
+        backgroundScaleMode: 0
+        normal:
+          backColor: {r: 1, g: 1, b: 1, a: 1}
+          textColor: {r: 1, g: 1, b: 1, a: 1}
+          backTexture: {fileID: 0}
+        hover:
+          backColor: {r: 1, g: 1, b: 1, a: 1}
+          textColor: {r: 1, g: 1, b: 1, a: 1}
+          backTexture: {fileID: 0}
+      padding:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      nameInKsHierarchy: Gravity Multiplier
+      callbackTarget: 
+      showIfTarget: 
+      hideDontDisable: 0
+      widthType: 0
+      heightType: 0
+      widthValue: 0
+      heightValue: 0
+      target: gravityMultiplier
+      content:
+        m_Text: Gravity Multiplier
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      extraData: '{"drawerStyle":0,"sliderMinF":0.0,"sliderMaxF":1.0,"sliderMinI":0,"sliderMaxI":1}'
+    - _myGUID: 6XJD5ST6hAFX4OJ7kthtg7XO8pKyIF
+      showIfTargetType: 0
+      elementType: 3
+      styleSheet:
+        hasCustomStyle: 0
+        backgroundAlphaBlend: 1
+        backgroundScaleMode: 0
+        normal:
+          backColor: {r: 1, g: 1, b: 1, a: 1}
+          textColor: {r: 1, g: 1, b: 1, a: 1}
+          backTexture: {fileID: 0}
+        hover:
+          backColor: {r: 1, g: 1, b: 1, a: 1}
+          textColor: {r: 1, g: 1, b: 1, a: 1}
+          backTexture: {fileID: 0}
+      padding:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      nameInKsHierarchy: Level
+      callbackTarget: 
+      showIfTarget: 
+      hideDontDisable: 0
+      widthType: 0
+      heightType: 0
+      widthValue: 0
+      heightValue: 0
+      target: level
+      content:
+        m_Text: Level
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      extraData: '{"drawerStyle":0,"sliderMinF":0.0,"sliderMaxF":1.0,"sliderMinI":0,"sliderMaxI":1}'
+    - _myGUID: LgSG78VZuz3yqamyVvgluKnyKb1htt
+      showIfTargetType: 0
+      elementType: 3
+      styleSheet:
+        hasCustomStyle: 0
+        backgroundAlphaBlend: 1
+        backgroundScaleMode: 0
+        normal:
+          backColor: {r: 1, g: 1, b: 1, a: 1}
+          textColor: {r: 1, g: 1, b: 1, a: 1}
+          backTexture: {fileID: 0}
+        hover:
+          backColor: {r: 1, g: 1, b: 1, a: 1}
+          textColor: {r: 1, g: 1, b: 1, a: 1}
+          backTexture: {fileID: 0}
+      padding:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      nameInKsHierarchy: Game Object
+      callbackTarget: 
+      showIfTarget: 
+      hideDontDisable: 0
+      widthType: 0
+      heightType: 0
+      widthValue: 0
+      heightValue: 0
+      target: gameObject
+      content:
+        m_Text: Game Object
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      extraData: 
+    - _myGUID: DjZJhJB1YSp1Nj4km1nT6KVuWPjSHy
+      showIfTargetType: 0
+      elementType: 3
+      styleSheet:
+        hasCustomStyle: 0
+        backgroundAlphaBlend: 1
+        backgroundScaleMode: 0
+        normal:
+          backColor: {r: 1, g: 1, b: 1, a: 1}
+          textColor: {r: 1, g: 1, b: 1, a: 1}
+          backTexture: {fileID: 0}
+        hover:
+          backColor: {r: 1, g: 1, b: 1, a: 1}
+          textColor: {r: 1, g: 1, b: 1, a: 1}
+          backTexture: {fileID: 0}
+      padding:
+        m_Left: 0
+        m_Right: 0
+        m_Top: 0
+        m_Bottom: 0
+      nameInKsHierarchy: Transform
+      callbackTarget: 
+      showIfTarget: 
+      hideDontDisable: 0
+      widthType: 0
+      heightType: 0
+      widthValue: 0
+      heightValue: 0
+      target: transform
+      content:
+        m_Text: Transform
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      extraData: 

@@ -34,11 +34,12 @@ namespace Omnix.Data
             List<string> childrenOfCopy = new List<string>();
             foreach (string child in this.children)
             {
-                if (!FirstLayoutWrapper.Current.DrawerData.TryGet(child, out DataClassBase childData)) continue;
-                
-                childrenOfCopy.Add(childData.Copy().GUID);
+                if (FirstLayoutWrapper.Current.DrawerData.TryGet(child, out DataClassBase childData))
+                {
+                    childrenOfCopy.Add(childData.Copy().GUID);
+                }
             }
-            
+
             // @formatter:off
             LayoutData copy = new LayoutData($"{nameInKsHierarchy} Copy", elementType)
             {

@@ -20,7 +20,7 @@ namespace Omnix.Properties
             try { _style = JsonConvert.DeserializeObject<GUIStyle>(data.extraData); }
             catch {  }
 
-            if (_style == null) _style = DataHub.CurrentSkin.ButtonStyle;
+            if (_style == null) _style = DataHub.CurrentSkin.buttonStyle;
             DrawAction = DrawInner;
             this.NoCheckChange = true;
         }

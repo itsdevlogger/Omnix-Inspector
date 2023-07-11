@@ -19,7 +19,7 @@ namespace Omnix.Properties
             DrawAction = DrawInner;
             try { _style = JsonConvert.DeserializeObject<GUIStyle>(data.extraData); }
             catch { }
-            if (_style == null) _style = DataHub.CurrentSkin.LabelStyle;
+            if (_style == null) _style = DataHub.CurrentSkin.labelStyle;
 
         }
 

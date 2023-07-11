@@ -22,7 +22,7 @@ namespace Omnix.Core
         private static bool _acceptInstance = false;
 
         /// <summary> Is GUI Enabled </summary>
-        protected static bool GuiEnabled = true;
+        protected bool GuiEnabled = true;
         #endregion
 
         #region Abstract
@@ -124,7 +124,6 @@ namespace Omnix.Core
         {
             if (this.IsSkipped)
             {
-                Debug.Log($"Skipping this: {Data.GUID}");
                 return;
             }
 

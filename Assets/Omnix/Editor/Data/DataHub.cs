@@ -46,6 +46,7 @@ namespace Omnix.Data
             return LayoutsMap.ContainsKey(type) ? LayoutsMap[type] : null;
         }
         
+        [InitializeOnLoadMethod]
         public static void Init()
         {
             _hasInitialized = true;

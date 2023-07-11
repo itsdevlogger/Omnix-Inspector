@@ -10,7 +10,7 @@ namespace Omnix.Data
     {
         public OmnixStyleSheet draggable;
         public OmnixStyleSheet dropDown;
-        public GUIStyle ButtonStyle;
-        public GUIStyle LabelStyle;
+        public GUIStyle buttonStyle;
+        public GUIStyle labelStyle;
     }
 }

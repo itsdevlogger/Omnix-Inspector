@@ -11,6 +11,7 @@ namespace Omnix.Core
     public class OmnixEditor : Editor
     {
         Func<bool> DrawCallback;
+        private FirstLayoutWrapper _layoutWrapper;
 
         private void OnEnable()
         {
@@ -29,7 +30,7 @@ namespace Omnix.Core
             }
             
             editorData.UpdateMap();
-            new FirstLayoutWrapper(editorData, script, target, ClassMember.GetMembersDictionary(serializedObject), false);
+            _layoutWrapper = new FirstLayoutWrapper(editorData, script, target, ClassMember.GetMembersDictionary(serializedObject), false);
             DrawCallback = DrawOmnix;
         }
 
@@ -39,7 +40,7 @@ namespace Omnix.Core
         }
 
         /// <summary>
-        /// Draw Omnix Inspector. Assumes that <see cref="FirstLayoutWrapper.Current"/> is not null.
+        /// Draw Omnix Inspector.
         /// </summary>
         /// <returns> true </returns>
         private bool DrawOmnix()
@@ -52,8 +53,8 @@ namespace Omnix.Core
                 return true;
             }
 
-
-            if (FirstLayoutWrapper.Current.OnGUI())
+            FirstLayoutWrapper.Current = _layoutWrapper;
+            if (_layoutWrapper.OnGUI())
             {
                 serializedObject.ApplyModifiedProperties();
             }

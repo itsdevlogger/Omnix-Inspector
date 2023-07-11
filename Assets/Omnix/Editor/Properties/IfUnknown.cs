@@ -24,7 +24,8 @@ namespace Omnix.InputFields
             Rect rect = EditorGUI.PrefixLabel(TotalRect, MyData.content);
             if (GUI.Button(rect, "Not Selected", EditorStyles.toolbarDropDown))
             {
-                SearchProviderOmnix.Create(this, SearchProviderOmnix.TreeType.PropertyTarget);
+                if (OmnixEditorContext.IsEditing) SearchProviderOmnix.Create(this, SearchProviderOmnix.TreeType.PropertyTarget);
+                else EditorUtility.DisplayDialog("Invalid", "Please open the Editor Maker to edit the fields", "Okay");
             }
         }
     }

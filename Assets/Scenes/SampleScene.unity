@@ -309,8 +309,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1528549017}
   - component: {fileID: 1528549016}
+  - component: {fileID: 1528549018}
   m_Layer: 0
-  m_Name: Enemy Prefab
+  m_Name: Common Demo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -328,16 +329,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07870f1c2c2364a4ea3fcb9a631cc66f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  avatar: {fileID: 21300000, guid: e5600378dd761e64d9423790c482bf36, type: 3}
-  isActive: 1
+  avatar: {fileID: 21300000, guid: f09eae8c0ea04254b90c5386a034a225, type: 3}
+  isActive: 0
   myName: Enemy 1
   health: 32
-  level: 9
-  isMoving: 0.66
+  level: 15
+  power: 0
+  currentMoveSpeed: 0
   groundLayer:
     serializedVersion: 2
     m_Bits: 0
-  walkSpeed: 0
+  walkSpeed: 1.47
   runSpeed: 0
   isInAir: 0
   maxJumpHeight: 0
@@ -372,3 +374,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1528549018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528549015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f94720bd0c13c94c9828205e16ee6ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
